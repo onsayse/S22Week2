@@ -5,7 +5,7 @@ class RunTimeExercises:
         for i in range(len(my_list)):
             if my_list[i] == target:
                 return True
-            #added a comment
+            #added a comment line
         return False
 
     def findMax(self, a_list):
