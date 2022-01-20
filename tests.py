@@ -11,6 +11,7 @@ class RunTimeUnitTests(unittest.TestCase):
         self.assertTrue(subject.linearSearch(a_list, 4))
         another_List = [20, 10, 90, 1005, 1]
         self.assertTrue(subject.linearSearch(another_List, 1))
+        #added a comment
         self.assertFalse(subject.linearSearch(another_List, 100))
 
     def test_swap_pos(self):
